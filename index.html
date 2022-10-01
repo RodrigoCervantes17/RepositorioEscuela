@@ -1,0 +1,50 @@
+<!DOCTYPE html> <!-- Es importante al iniciar el código, así el navegador sabe que se trata de HTML5.-->
+
+<html lang="es"><!-- El lenguaje "español"-->
+    
+    <head> <!-- Esta etiqueta da una estructura u orden al código, mas no realiza una función más allá.-->
+
+        <meta charset="UTF-8"> <!-- Los caracteres que queremos permitidos en la página.-->
+        <title>Barbería Cerro.</title> <!-- Es el título que usamos de referencia, no confundir con header. Da nombre a la pestaña del navegador.-->
+        <link rel="stylesheet" href="style.css"> <!-- Se da referencia a la página de estilo (CSS) para llamarla al ejecutar el html.-->
+    
+    </head>
+
+    <body>
+
+        <header class="titulo-centralizado"> <!-- Esta etiqueta sí se refiere a un título.-->
+            <h1 class="titulo-principal">Barbería Cerro</h1> <!-- El título de la página, hasta arriba.-->
+        </header>
+
+        <img id="banner" src="banner/banner.jpg"> <!-- Por órden lógico, colocamos una imagen seguida del título, se le da un ID para trabajar con él en CSS y la ubicación para llamar dicha imagen.-->
+        
+        <div class="principal"> <!-- Usamos una clase para el css, y div para dar órden al código.-->
+
+            <h2 class="titulo-centralizado">Sobre la Barbería Cerro</h2> <!-- Segundo header, menor órden.-->
+
+            <p>Ubicada en el corazón de la ciudad, la <strong>Barbería Cerro</strong> trae para el mercado lo que hay de mejor para su cabello y barba. Fundada en 2020, la Barbería Cerro ya es destaque en la ciudad y conquista nuevos clientes diariamente.</p> <!-- P for paragraph, strong para negritas-->
+
+            <p id="mision"><em>Nuestra misión es: <strong>"Proporcionar autoestima y calidad de vida a nuestros clientes"</strong>.</em></p> <!-- em for emphasis, id de mision-->
+
+            <p>Ofrecemos profesionales experimentados que están constantemente observando los cambios y movimiento en el mundo de la moda, para así ofrecer a nuestros clientes las últimas tendencias. El atendimiento posee un padrón de excelencia y agilidad, garantizando calidad y satisfacción de nuestros clientes.</p> 
+
+        </div>
+
+        <div class="diferenciales">
+
+            <h3 class="titulo-centralizado">Diferenciales</h3>
+        
+            <ul> <!-- lista no ordenada-->
+                <li class="items">Atención personalizada a los clientes</li>
+                <li class="items">Espacio diferenciado</li>
+                <li class="items">Localización</li>
+                <li class="items">Profesesionales calificados</li>
+            </ul>
+
+            <img src="diferenciales/diferenciales.jpg" class="imagenDiferenciales"> <!-- Mismo caso, src for source-->
+
+        </div>
+        
+        
+    </body> <!-- fin del body.-->
+</html>
